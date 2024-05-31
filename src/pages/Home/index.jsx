@@ -22,7 +22,7 @@ export function Home() {
 
   const [sliderRef] = useKeenSlider({
     breakpoints: {
-      '(min-width: 400px)': {
+      '(min-width: 320px)': {
         slides: { perView: 1.8, spacing: 16 },
       },
       '(min-width: 1000px)': {
